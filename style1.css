@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+  
+       height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)), url(/images/sign\ in.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 10px 8%;
+        position: relative;
+
+}
+.logo {
+    width: 150px;
+    margin-top: 30px;
+   
+}
+
+.box{
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    height: 590px;
+    width: 440px;
+    margin-left: 28%;
+    margin-top: 1%;
+    text-align: center;
+    margin-top: 6%;
+    border-radius: 4px;
+    
+}
+.box h1{
+    padding:0 150px;
+    margin-top: 10px;
+}
+input{
+    background-color: #333;
+    color: #ffffff;
+    width: 320px;
+    height: 47px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+input[type="submit"]{
+    width: 320px;
+    height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: #db0001;
+}
+input[type="checkbox"]{
+    width: 25px;
+    height: 15px;
+    border-radius: 5px;
+   
+}
+label{
+  color: rgb(125,119,119);
+}
+.box a{
+    position: relative;
+    margin-top: 24px;
+    margin-right: 1px;
+    color: rgb(125,119,119);
+    text-decoration: none;
+    padding-left: 100px;
+
+}
+p{
+    color: rgb(125,119,119);
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 60px;
+}
